@@ -13,15 +13,16 @@ body {
 
 header {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px, 100px;
     background: seagreen;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    top: 0;
+    left: 0;
+    padding-right: 20px;
+    width: 100%;
+    padding: 20px, 100px;
 }
 
 h1 {
@@ -37,7 +38,7 @@ text-decoration: none;
      padding: 0;
      display: flex;
      gap: 15px;
-     padding-left: 10px;
+     padding-left: 20px;
 }
 
 .main-navbar a {
