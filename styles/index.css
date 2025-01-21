@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 body {
     min-height: 100vh;
     background: url(../images/background.jpg) no-repeat;
@@ -35,6 +39,11 @@ text-decoration: none;
  font-weight: 700;    
 }
 
+h2 {
+    color: rgb(150, 38, 154);
+    font-style: italic;
+}
+
 .main-navbar ul {
     list-style: none;
      margin: 0;
@@ -57,26 +66,58 @@ text-decoration: none;
 #about {
     margin-top: 100px;
     margin-bottom: 50px;
-    font-size: 13pt;
+}
+
+#about p {
     background-color: rgba(81, 186, 107, 0.2);
 }
 
 #services {
     margin-top: 50px;
     margin-bottom: 50px;
-    font-size: 13pt;
+}
+
+#services p {
     background-color: rgba(81, 186, 107, 0.2);
+    font-size: 13pt;
 }
 
 #the-crew {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+#the-crew p {
+    background-color: rgba(81, 186, 107, 0.2);
     font-size: 13pt;
 }
 
 #contact {
     margin-top: 50px;
     margin-bottom: 50px;
-    font-size: 13pt;
+}
+
+#contact p {
     background-color: rgba(81, 186, 107, 0.2);
+    font-size: 13pt;
+}
+
+.btn {
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5000px;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.15);
+    color: blue;
+}
+
+footer {
+    color: #fff;
 }
