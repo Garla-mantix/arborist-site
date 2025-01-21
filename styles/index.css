@@ -9,6 +9,7 @@ body {
     background: url(../images/background.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 header {
@@ -53,6 +54,29 @@ text-decoration: none;
     color: blue;
 }
 
-main {
-    padding-top: 100px;
+#about {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 13pt;
+    background-color: rgba(81, 186, 107, 0.2);
+}
+
+#services {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 13pt;
+    background-color: rgba(81, 186, 107, 0.2);
+}
+
+#the-crew {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 13pt;
+}
+
+#contact {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 13pt;
+    background-color: rgba(81, 186, 107, 0.2);
 }
